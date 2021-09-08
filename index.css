@@ -1,0 +1,52 @@
+/*--body--*/
+body
+{
+    background-image: url("bgimage.jpg");
+    background-size:cover;
+    width: 100%;
+    height:auto;
+}
+/*--navigation bar--*/
+.navs a
+{
+   color:white;
+   text-align:left;
+   border-width: 100%;
+   word-spacing: 10px;
+   background-color:none;
+}
+/*--nav bar--*/
+nav
+{
+    word-spacing: 10px;
+    color:white
+}
+/*--table*/
+.info table
+{
+    text-align: center;
+    background-color:wheat;
+}
+/*--paragraph--*/
+.info p
+{
+    font-size: 15px;
+}
+/*-- for responsive web page--*/
+@media (max-width:600px){
+   img{
+        width:100%;
+    }
+    .nav-area{
+        float:none;
+        margin-top:0;
+    }
+    .nav-area li a{
+        padding:5px;
+        font-size:10px;
+    }
+    .nav-area {
+        text-align:center;
+  }
+
+}
